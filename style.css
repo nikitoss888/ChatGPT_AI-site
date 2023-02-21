@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #2f2f2f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: #2f2f2f;
+    z-index: 1;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #2f2f2f;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.about-section p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.services-section h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 30%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-card h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.service-card p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.contact-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+.contact-section h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #2f2f2f;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+.footer-section {
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #2f2f2f;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.footer-social a:hover {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+footer p {
+    font-size: 16px;
+    text-align: center;
+}
